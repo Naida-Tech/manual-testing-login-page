@@ -4,7 +4,7 @@
 
 This project contains manual testing documentation for a demo login page.
 
-The goal of this project is to practice writing test cases, executing manual tests, documenting actual results, and preparing bug reports as part of a QA / Software Testing portfolio.
+The goal of this project is to practice writing test cases, executing manual tests, documenting actual results, and preparing QA documentation as part of a Software Testing portfolio.
 
 ## Application Under Test
 
@@ -44,10 +44,30 @@ manual-testing-login-page/
 ├── README.md
 ├── test-cases/
 │   └── login-test-cases.md
+├── test-execution/
+│   └── test-execution-report.md
 ├── bug-reports/
-│   └── bug-report-template.md
+│   ├── bug-report-template.md
+│   └── bug-report-summary.md
 └── screenshots/
+    └── .gitkeep
 ```
+
+## Test Execution Summary
+
+| Test Case ID | Test Scenario                 | Status |
+| ------------ | ----------------------------- | ------ |
+| TC-001       | Login with valid credentials  | Pass   |
+| TC-002       | Login with invalid username   | Pass   |
+| TC-003       | Login with invalid password   | Pass   |
+| TC-004       | Login with empty fields       | Pass   |
+| TC-005       | Logout after successful login | Pass   |
+
+## Bug Summary
+
+During this test execution, no functional bugs were found.
+
+**Total bugs found:** 0
 
 ## QA Skills Practiced
 
@@ -55,9 +75,10 @@ manual-testing-login-page/
 * Defining expected results
 * Executing manual test cases
 * Comparing expected and actual results
-* Documenting bugs
-* Creating QA documentation for a portfolio
+* Creating a test execution report
+* Preparing bug report documentation
+* Organizing QA documentation in GitHub
 
-## Status
+## Project Status
 
-Project in progress.
+Completed.
